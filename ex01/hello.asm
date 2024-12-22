@@ -7,3 +7,5 @@ _start:                 ; объявление метки _start - точки в
     syscall             ; выполняем системный вызов exit
 
 ; Source: https://metanit.com/assembler/nasm/1.4.php
+; nasm -f elf64 hello.asm -o hello.o
+; ld -o hello hello.o
