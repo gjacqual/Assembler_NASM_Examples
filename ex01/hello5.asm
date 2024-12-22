@@ -1,4 +1,4 @@
-%include "../../stud_io.inc"
+%include "../../stud_io.inc" ;  http://www.stolyarov.info/books/extra/stud_io_inc
 global _start
 
 section .text
